@@ -1,0 +1,33 @@
+# ALLYUS — https://a-l-l-y.com
+# The marketing pages are public. Everything behind a login is not useful to a
+# crawler (it renders nothing without a session) and is excluded so crawl budget
+# goes to the pages that can actually rank.
+
+User-agent: *
+Allow: /$
+Allow: /pricing
+Allow: /register
+Allow: /login
+Allow: /privacy
+Allow: /terms
+Allow: /dpa
+
+# Authenticated app routes — no content without a session.
+Disallow: /home
+Disallow: /services
+Disallow: /staff
+Disallow: /customers
+Disallow: /calendar
+Disallow: /waitlist
+Disallow: /website
+Disallow: /analytics
+Disallow: /invoices
+Disallow: /payments
+Disallow: /email
+Disallow: /conversations
+Disallow: /plans
+Disallow: /tax
+Disallow: /goals
+Disallow: /personality
+
+Sitemap: https://a-l-l-y.com/sitemap.xml

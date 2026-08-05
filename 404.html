@@ -6,8 +6,89 @@
     <meta name="theme-color" content="#0B0D10" />
     <link rel="icon" type="image/png" href="/favicon.png" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <title>ALLYUS — Operator Console</title>
-    <script type="module" crossorigin src="/assets/index-jubDSXKA.js"></script>
+
+    <!--
+      SEO baseline. This file is the ONLY server-rendered HTML the app has —
+      everything else is client-rendered, so a crawler that does not run
+      JavaScript sees exactly this and nothing else. So the title and
+      description describe the PRODUCT, not whichever route is open.
+
+      The previous title was "ALLYUS — Operator Console": what we call it
+      internally, and a phrase nobody searches for.
+    -->
+    <title>ALLYUS — the AI employee for local businesses</title>
+    <meta
+      name="description"
+      content="ALLYUS answers your customers, books real appointments and keeps your books straight — a website, online bookings, customer records and a 24/7 AI receptionist for local service businesses. Live in minutes, not months."
+    />
+    <link rel="canonical" href="https://a-l-l-y.com/" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+
+    <!-- Social preview -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="ALLYUS" />
+    <meta property="og:url" content="https://a-l-l-y.com/" />
+    <meta property="og:title" content="ALLYUS — the AI employee for local businesses" />
+    <meta
+      property="og:description"
+      content="A website, online bookings, customer records and a 24/7 AI receptionist that answers your customers and books real appointments. Live in minutes, not months."
+    />
+    <meta property="og:image" content="https://a-l-l-y.com/allyus-logo.png" />
+    <meta property="og:locale" content="en_GB" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ALLYUS — the AI employee for local businesses" />
+    <meta
+      name="twitter:description"
+      content="Answers your customers, books real appointments, and keeps your books straight. Live in minutes."
+    />
+    <meta name="twitter:image" content="https://a-l-l-y.com/allyus-logo.png" />
+
+    <!--
+      Structured data. Organization gives search engines a stable identity to
+      hang a logo and sitelinks on; SoftwareApplication describes the product.
+      The prices mirror plan-catalog.ts — if that ladder moves, move these too,
+      because a stale price in structured data is a claim we are not honouring.
+    -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://a-l-l-y.com/#organization",
+            "name": "ALLYUS",
+            "url": "https://a-l-l-y.com/",
+            "logo": "https://a-l-l-y.com/allyus-logo.png",
+            "description": "An AI employee for local service businesses — website, bookings, customer records and a 24/7 AI receptionist."
+          },
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://a-l-l-y.com/#software",
+            "name": "ALLYUS",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web",
+            "url": "https://a-l-l-y.com/",
+            "publisher": { "@id": "https://a-l-l-y.com/#organization" },
+            "offers": [
+              { "@type": "Offer", "name": "Free", "price": "0", "priceCurrency": "GBP" },
+              { "@type": "Offer", "name": "Essentials", "price": "49", "priceCurrency": "GBP" },
+              { "@type": "Offer", "name": "Professional", "price": "99", "priceCurrency": "GBP" },
+              { "@type": "Offer", "name": "Autopilot", "price": "199", "priceCurrency": "GBP" }
+            ]
+          }
+        ]
+      }
+    </script>
+
+    <!--
+      Verification + analytics slots, deliberately EMPTY.
+      These need accounts only the owner can create, and inventing an ID would
+      have the page claim a property we do not own. docs/SEO_SETUP.md has the
+      exact steps; paste the tokens here and rebuild.
+    -->
+    <!-- google-site-verification: paste the content value here once issued -->
+    <!-- msvalidate.01: paste the Bing value here once issued -->
+    <script type="module" crossorigin src="/assets/index-Czv5VoyI.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-l2JA4-Fr.css">
   </head>
   <body>

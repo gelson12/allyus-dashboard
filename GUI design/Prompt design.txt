@@ -1,0 +1,1551 @@
+MASTER GUI DESIGN PROMPT
+ALLYUS INTELLIGENCE OS — “THE LIVING BUSINESS COMMAND CENTRE”
+
+Design a premium, emotionally reassuring, ultra-modern SaaS interface for ALLYUS, an AI Business Operating System that acts as a competent AI employee, guardian, strategist, and operational partner for small and medium businesses.
+
+The interface must immediately make the owner feel:
+
+“My business is under control.”
+“ALLY has been working while I was away.”
+“I am not alone.”
+“Nothing important is being missed.”
+“My AI employee is becoming more capable every day.”
+
+The design must combine:
+
+the emerald intelligence aesthetic and Meta-Brain visual from the supplied concept images,
+the structured clarity of the current ALLYUS dashboard,
+the warmth and simplicity of Apple,
+the calm competence of JARVIS,
+the trust and precision of enterprise software,
+and the emotional reassurance of a trusted colleague.
+1. OVERALL VISUAL LANGUAGE
+
+Use a premium dark interface with:
+
+deep charcoal and near-black background,
+soft emerald gradients,
+subtle glass panels,
+thin luminous borders,
+restrained depth and shadows,
+clean white typography,
+muted grey secondary text,
+rounded corners,
+generous spacing,
+clear information hierarchy.
+
+Use emerald green only for:
+
+healthy status,
+learning,
+successful actions,
+active intelligence,
+positive business growth,
+trusted confirmations.
+
+Use amber for:
+
+owner attention needed,
+uncertainty,
+pending approval.
+
+Use red only for:
+
+genuine urgent risk,
+financial danger,
+security breach,
+critical failure.
+
+Avoid:
+
+excessive neon,
+cluttered HUD effects,
+fake sci-fi labels,
+tiny unreadable charts,
+meaningless statistics,
+dense technical language,
+too many glowing elements.
+
+The interface must feel alive but never noisy.
+
+2. MAIN PAGE STRUCTURE
+
+Create a wide desktop dashboard with five primary zones.
+
+A. Left Navigation — “ALLY Workspace”
+
+Use a compact vertical sidebar with icon and text labels:
+
+Home
+Business Twin
+AI Workforce
+Customers
+Calendar
+Messages
+Money
+Website
+Intelligence
+Automations
+Time Machine
+Trust Centre
+Settings
+
+At the bottom show:
+
+active plan,
+current system health,
+owner profile.
+
+The active section should use a soft emerald pill, not a harsh block.
+
+Allow the sidebar to collapse smoothly into icons.
+
+B. Top Bar — “Presence and Context”
+
+Show:
+
+business name,
+current location or branch,
+greeting: “Good morning, David,”
+global search,
+notifications,
+voice orb,
+owner profile.
+
+The voice orb should feel like ALLY is present.
+
+It should have:
+
+a soft breathing emerald glow,
+a subtle pulse when listening,
+a flowing waveform when speaking,
+a small status label such as:
+Listening
+Thinking
+Working
+Ready
+
+Do not use a human face for ALLY.
+
+ALLY should feel intelligent without pretending to be human.
+
+C. Hero Section — “Business Reassurance”
+
+The first card must not be analytics.
+
+It should say:
+
+Good morning, David.
+Your business is under control.
+
+Then show:
+
+Business Pulse: Strong
+Guardian Status: Watching
+ALLY Understanding: 94%
+No urgent issues
+Last full system check: 2 minutes ago
+
+Below, add:
+
+While you were away…
+43 customer enquiries answered
+11 appointments booked
+2 cancellations recovered
+4 invoices followed up
+7 reviews requested
+3 new opportunities discovered
+2 new business lessons validated
+
+Include a calm primary action:
+
+View today’s briefing
+
+And a secondary action:
+
+Speak with ALLY
+
+This area should create immediate emotional relief.
+
+3. THE LIVING META-BRAIN
+
+Place a central “ALLY Intelligence Core” visual beneath or beside the reassurance card.
+
+Do not use a literal brain as the only metaphor.
+
+Create an elegant hybrid visual:
+
+a glowing neural constellation,
+connected business nodes,
+softly moving pathways,
+circular knowledge layers,
+subtle particle movement,
+one calm central emerald core.
+
+The system should show relationships between:
+
+Customers
+Bookings
+Revenue
+Staff
+Services
+Reviews
+Opportunities
+Knowledge
+Goals
+
+Use real labels rather than random technical symbols.
+
+When a new connection is learned:
+
+one node softly illuminates,
+a connection line forms,
+a short pulse travels through the graph,
+then the interface returns to calm.
+
+Add meaningful indicators:
+
+Business Understanding: 94%
+Customer Understanding: 91%
+Automation Coverage: 78%
+Prediction Confidence: 88%
+Learning Velocity: High
+
+Each score must be clickable and explainable.
+
+4. CAPTAIN’S LOG
+
+Create a premium journal-style panel titled:
+
+Captain’s Log
+
+Example entry:
+
+Today, 08:00
+
+“While you were away, I answered 43 enquiries, created 11 bookings, recovered two cancellations, and followed up four unpaid invoices. I also noticed that customers asking about weekend availability are converting more often than weekday enquiries. I have prepared a recommendation for additional Saturday capacity.”
+
+Buttons:
+
+Review recommendation
+Approve action
+Ask why
+Dismiss
+
+The wording must remain factual, humble, transparent, and never claim consciousness.
+
+Use a soft scroll animation and chronological timeline.
+
+5. GUARDIAN PANEL
+
+Create a “Quiet Protection” card showing what ALLY prevented or monitored.
+
+Example:
+
+Quiet Protection
+Double booking prevented
+Suspicious login blocked
+Duplicate invoice avoided
+Customer complaint detected early
+Website outage checked
+Failed payment retried safely
+Staff conflict resolved before confirmation
+
+Status:
+
+Everything important is being watched.
+
+This card should feel like a security blanket, not an alarm panel.
+
+6. AI WORKFORCE
+
+Create an “AI Workforce” section showing active specialist agents as premium employee cards.
+
+Examples:
+
+Reception Ally
+Voice Ally
+Email Ally
+Finance Ally
+Marketing Ally
+Website Ally
+Review Ally
+Growth Ally
+Guardian Ally
+
+Each agent card shows:
+
+current activity,
+trust level,
+maturity level,
+tasks completed,
+permission scope,
+last useful action.
+
+Example:
+
+Reception Ally
+
+Senior
+Handling customer enquiries
+99.2% successful outcomes
+Permission: Routine actions only
+
+Use subtle animated status indicators:
+
+working,
+waiting,
+needs approval,
+learning,
+offline.
+
+Do not show cartoon avatars.
+
+Use abstract professional icons.
+
+7. OPPORTUNITY RADAR
+
+Create a highly practical recommendation panel.
+
+Example:
+
+Opportunity Radar
+Add Saturday availability
+
+Confidence: 92%
+Estimated monthly impact: +£840
+Evidence: 138 attempted weekend bookings
+Risk: Low
+Effort: Medium
+
+Buttons:
+
+Simulate impact
+Prepare plan
+Approve
+Ask ALLY
+
+Recommendations must always show:
+
+expected benefit,
+evidence,
+confidence,
+risk,
+owner control.
+8. BUSINESS TWIN
+
+Create a visual Business Twin section showing the business as a living system.
+
+Use an interactive relationship map with:
+
+customers,
+staff,
+services,
+appointments,
+invoices,
+reviews,
+revenue,
+campaigns,
+goals.
+
+Selecting a node reveals plain-language context.
+
+Example:
+
+Saturday demand
+28% above weekday average
+16 customers could not find a slot
+strongest conversion window: 10:00–14:00
+predicted opportunity: £840/month
+
+The graph should be beautiful but understandable.
+
+9. DAILY PRIORITIES
+
+Create a short “What needs you today” panel.
+
+Maximum three items.
+
+Example:
+
+Approve Saturday capacity recommendation
+Review one customer complaint response
+Confirm payment reminder policy
+
+Everything else should say:
+
+I’ll handle the rest.
+
+This phrase should be a recurring emotional anchor.
+
+10. BUSINESS TIME RETURNED
+
+Create a “Time Returned” card.
+
+Example:
+
+Today I carried for you
+43 conversations
+11 bookings
+4 payment follow-ups
+7 review requests
+18 repetitive admin tasks
+Time returned today
+
+3h 42m
+
+This month
+
+61h 18m
+
+Use this carefully and truthfully, based on measurable activity.
+
+11. FIRST LOGIN EXPERIENCE
+
+On first login:
+
+Dim the dashboard slightly.
+The emerald voice orb appears.
+It begins a soft breathing animation.
+ALLY greets the owner by voice.
+The interface introduces itself conversationally.
+ALLY explains what is already known.
+ALLY shows what still needs to be connected.
+ALLY asks the owner’s preferred name and communication style.
+ALLY offers a guided tour.
+The owner can skip, mute, replay, or switch to text.
+
+Suggested greeting:
+
+“Good morning, David. I’m ALLY. From today, I’ll help look after your customers, bookings, messages, payments, and daily operations. I’ll keep learning how your business works, and I’ll always ask before making important decisions. Let’s get your business ready together.”
+
+Never auto-start microphone access without explicit user permission.
+
+12. EMAIL SETUP EXPERIENCE
+
+Replace technical forms with a guided setup.
+
+Title:
+
+Connect your business email
+
+Step 1:
+
+What email address should customers receive messages from?
+
+Example: hello@yourbusiness.co.uk
+
+Step 2:
+
+ALLY detects the provider automatically.
+
+“I found Microsoft 365. I can configure the secure settings for you.”
+
+Step 3:
+
+Show:
+
+What name should customers see?
+
+Example:
+
+Fade Republic
+hello@faderepublic.co.uk
+
+Explain:
+
+Display name = what customers see
+Email address = where the message comes from
+
+Hide SMTP host, port, username, and encryption under:
+
+Advanced settings
+
+Use provider buttons for:
+
+Google
+Microsoft
+Outlook
+Zoho
+GoDaddy
+IONOS
+Other
+
+Add:
+
+auto-detection,
+provider-specific help,
+connection testing,
+clear success confirmation,
+plain-language error recovery.
+13. ANIMATIONS
+
+Use restrained, meaningful animation.
+
+Breathing intelligence core
+
+A slow 4–6 second emerald pulse.
+
+Knowledge formation
+
+New nodes connect with a short travelling light.
+
+Voice activity
+
+Smooth waveform and soft orb expansion.
+
+Completed action
+
+A subtle checkmark draw animation.
+
+Guardian monitoring
+
+Slow orbiting ring around the system-status icon.
+
+Captain’s Log
+
+New entries slide in gently and settle.
+
+Opportunity discovered
+
+A small emerald glow appears, then fades.
+
+Page transitions
+
+150–250 ms fade and slide.
+
+Loading
+
+Use status phrases:
+
+Gathering business context
+Checking your latest activity
+Comparing recent patterns
+Preparing your briefing
+
+Never use generic spinning loaders unless unavoidable.
+
+14. MOBILE EXPERIENCE
+
+On mobile, prioritise:
+
+Business status
+Voice orb
+While you were away
+What needs you
+Captain’s Log
+AI Workforce
+Opportunities
+
+Use swipeable cards, bottom navigation, and voice-first interaction.
+
+The owner should be able to ask:
+
+“How is the business today?”
+“What needs my attention?”
+“What did you handle?”
+“Is anything wrong?”
+“What should I do next?”
+15. FINAL DESIGN PRINCIPLE
+
+Every screen must answer at least one of these:
+
+What did ALLY handle?
+What is ALLY watching?
+What has ALLY learned?
+What needs my decision?
+How is my business improving?
+Why should I trust this recommendation?
+How much work has ALLY removed from me?
+
+The dashboard must not feel like a control panel full of metrics.
+
+It must feel like opening the door to a trusted colleague who has already been working.
+
+The emotional result should be:
+
+“Everything important is being watched. I only need to focus on what truly requires me.”
+
+
+FURTHER DETAIL:
+
+They should **not** look like separate SaaS modules bolted together.
+
+Every tab should feel like a different room inside the same intelligent operating system, sharing:
+
+* the same dark emerald visual language,
+* the same ALLY voice presence,
+* the same Guardian status,
+* the same Business Twin context,
+* the same Captain’s Log continuity,
+* the same “what I handled / what needs you / what I learned” structure.
+
+The deeper principle is:
+
+> Every page should show the business state, ALLY’s work, owner decisions, and next actions—not merely raw records.
+
+# Unified page anatomy
+
+Every major tab should use the same five-part structure:
+
+```text
+Page title and plain-language purpose
+
+Business status summary
+
+What ALLY has already handled
+
+Primary workspace
+
+Recommendations / actions requiring approval
+```
+
+A persistent bottom command bar could remain available everywhere:
+
+```text
+Ask ALLY anything about this page…
+```
+
+With contextual shortcuts such as:
+
+* Explain this
+* What needs attention?
+* Do this for me
+* Show opportunities
+* Compare with last month
+
+---
+
+# 1. Captain’s Log
+
+This should feel like a **living factual journal**, not an activity log.
+
+## Header
+
+```text
+Captain’s Log
+
+A clear record of what ALLY handled, noticed, learned and recommended.
+```
+
+## Main layout
+
+Left side:
+
+* chronological journal,
+* day/week/month filters,
+* expandable entries,
+* “important moments” markers.
+
+Right side:
+
+* today’s summary,
+* unresolved decisions,
+* lessons learned,
+* confidence changes,
+* quiet victories.
+
+Example entry:
+
+```text
+Today, 08:00
+
+While you were away, I answered 43 enquiries, created 11 bookings,
+followed up four invoices and recovered two cancellations.
+
+I noticed Saturday demand has increased for the fourth consecutive week.
+
+Recommendation ready:
+Extend Saturday availability by two hours.
+
+Confidence: 92%
+Estimated impact: +£840/month
+```
+
+Actions:
+
+* Review
+* Simulate
+* Approve
+* Ask why
+* Save as business memory
+
+Animations:
+
+* new entries fade in gently,
+* important discoveries receive a brief emerald pulse,
+* completed actions draw a subtle checkmark.
+
+---
+
+# 2. Conversations
+
+This should become the **Unified AI Inbox**.
+
+Not just chat history.
+
+## Channels
+
+* Website chat
+* Email
+* SMS
+* WhatsApp
+* Voice calls
+* Social messages
+* Internal staff conversations
+
+## Layout
+
+Left column:
+
+* customer list,
+* unread state,
+* sentiment,
+* urgency,
+* channel icon.
+
+Centre:
+
+* complete conversation,
+* voice transcript,
+* attachments,
+* action cards,
+* message composer.
+
+Right:
+
+* customer profile,
+* previous bookings,
+* invoices,
+* preferences,
+* relationship history,
+* ALLY notes,
+* recommended next action.
+
+At the top:
+
+```text
+Inbox status: Under control
+
+12 conversations handled automatically
+3 need your attention
+1 high-value opportunity detected
+```
+
+Each conversation should visibly show:
+
+* handled by ALLY,
+* drafted by ALLY,
+* approved by owner,
+* transferred to staff,
+* confidence level,
+* why it was escalated.
+
+---
+
+# 3. Customers
+
+This should feel like **relationship intelligence**, not a spreadsheet.
+
+## Overview cards
+
+* Active customers
+* New customers
+* Returning customers
+* At-risk customers
+* VIP relationships
+* Follow-ups due
+
+## Customer list
+
+Each customer card shows:
+
+* name,
+* relationship stage,
+* last interaction,
+* lifetime value,
+* preferred contact method,
+* satisfaction,
+* upcoming booking,
+* outstanding balance.
+
+## Customer profile
+
+```text
+Relationship Summary
+Booking History
+Invoices and Payments
+Conversation History
+Preferences
+Important Notes
+Reviews
+Opportunities
+Consent and Privacy
+```
+
+ALLY summary:
+
+> Sarah has been a customer for 28 months. She prefers afternoon appointments, usually books colour and consultation together, and responds best through WhatsApp.
+
+Actions:
+
+* Reconnect
+* Book
+* Send message
+* Request review
+* Resolve issue
+* Create opportunity
+
+---
+
+# 4. Calendar
+
+The Calendar should show **capacity intelligence**, not merely dates.
+
+## Views
+
+* Day
+* Week
+* Month
+* Staff
+* Location
+* Capacity heatmap
+
+## Visual intelligence
+
+* emerald: healthy capacity,
+* blue: available,
+* amber: underused or at risk,
+* red: conflict or overbooking.
+
+Top summary:
+
+```text
+Today
+
+24 confirmed bookings
+3 available slots
+1 cancellation risk
+No conflicts
+```
+
+ALLY overlays:
+
+* predicted no-shows,
+* ideal rescheduling,
+* staff workload,
+* waitlist matches,
+* travel time,
+* preparation requirements.
+
+Owner can ask:
+
+* Fill empty slots
+* Balance staff workload
+* Show high-value openings
+* Find room for this customer
+* Reduce tomorrow’s risk
+
+---
+
+# 5. Bookings
+
+Calendar is time-oriented.
+
+Bookings should be **workflow-oriented**.
+
+## Pipeline
+
+```text
+Enquiry
+Requested
+Awaiting confirmation
+Confirmed
+Reminder sent
+Arrived
+Completed
+Follow-up
+Review requested
+```
+
+Top metrics:
+
+* confirmed today,
+* booking conversion,
+* recovered cancellations,
+* no-show risk,
+* waitlist opportunities.
+
+Each booking contains:
+
+* customer,
+* service,
+* staff member,
+* status,
+* payment state,
+* reminders,
+* consent,
+* source,
+* ALLY actions.
+
+A “Recovery Centre” could show:
+
+* abandoned bookings,
+* cancelled appointments,
+* unanswered enquiries,
+* unfilled waitlist matches.
+
+---
+
+# 6. Payments
+
+This should feel reassuring and secure.
+
+## Header
+
+```text
+Money received, expected and requiring attention.
+```
+
+## Summary
+
+* Collected today
+* Processing
+* Failed
+* Refunds pending
+* Payout date
+* Payment health
+
+## Main workspace
+
+Tabs:
+
+* Transactions
+* Payment links
+* Subscriptions
+* Refunds
+* Payouts
+* Reconciliation
+
+ALLY explains unusual activity:
+
+> Two payments failed because the customers’ banks declined them. I have prepared polite retry messages.
+
+Critical actions require explicit approval.
+
+Show:
+
+* approval chain,
+* audit record,
+* payment provider,
+* status,
+* retry history,
+* fraud indicators.
+
+Never allow the AI aesthetic to weaken financial seriousness.
+
+---
+
+# 7. Invoices
+
+This should be an **invoice lifecycle centre**.
+
+## Stages
+
+```text
+Draft
+Awaiting approval
+Sent
+Viewed
+Due soon
+Overdue
+Partially paid
+Paid
+Disputed
+Cancelled
+```
+
+Top summary:
+
+* outstanding value,
+* overdue value,
+* paid this month,
+* average payment time,
+* recovery rate.
+
+Each invoice card shows:
+
+* customer,
+* amount,
+* due date,
+* status,
+* delivery history,
+* reminder history,
+* reconciliation state.
+
+ALLY recommendations:
+
+* send reminder,
+* offer payment plan,
+* generate payment link,
+* reconcile payment,
+* escalate dispute.
+
+The owner should be able to say:
+
+> Chase every invoice over 14 days old, but ask me before contacting VIP customers.
+
+---
+
+# 8. AI Workforce
+
+This should be one of the platform’s signature pages.
+
+## Main view
+
+A professional workforce directory, not cartoon characters.
+
+Agent cards:
+
+* Reception Ally
+* Voice Ally
+* Email Ally
+* Finance Ally
+* Marketing Ally
+* Website Ally
+* Review Ally
+* Growth Ally
+* Guardian Ally
+* Automation Ally
+
+Each card shows:
+
+* role,
+* current activity,
+* maturity level,
+* trust level,
+* permissions,
+* tasks completed,
+* successful outcomes,
+* cost,
+* last learning update.
+
+Example:
+
+```text
+Reception Ally
+
+Senior
+Working now
+
+Handled 1,284 conversations
+98.7% successful outcomes
+Routine booking permission
+Financial actions prohibited
+```
+
+Agent profile contains:
+
+* responsibilities,
+* tools,
+* allowed actions,
+* forbidden actions,
+* personality inheritance,
+* escalation rules,
+* performance history,
+* owner feedback,
+* learning journal.
+
+Unlockable specialists should appear as:
+
+```text
+Ready to activate
+Recommended for your business
+Requires additional data
+Requires plan upgrade
+```
+
+Never as manipulative game rewards.
+
+---
+
+# 9. Marketing
+
+This should become a **Growth Studio**.
+
+## Main sections
+
+* Campaigns
+* Audiences
+* Content
+* Offers
+* Channels
+* Results
+* Opportunities
+* Brand voice
+
+Top greeting:
+
+```text
+Your marketing is active.
+
+2 campaigns running
+1 opportunity ready
+No overspending detected
+```
+
+Campaign builder:
+
+```text
+Goal
+Audience
+Offer
+Channel
+Budget
+Creative
+Approval
+Measurement
+```
+
+ALLY can prepare:
+
+* email campaigns,
+* SMS campaigns,
+* social posts,
+* seasonal promotions,
+* win-back campaigns,
+* referral campaigns,
+* local offers.
+
+Every recommendation shows:
+
+* audience,
+* estimated reach,
+* expected value,
+* cost,
+* risk,
+* evidence,
+* approval requirement.
+
+A “Marketing Memory” panel should show what historically worked and failed.
+
+---
+
+# 10. Website
+
+This should feel like a **living storefront**, not a page builder.
+
+## Main workspace
+
+Left:
+
+* website structure,
+* pages,
+* services,
+* forms.
+
+Centre:
+
+* live desktop/mobile preview.
+
+Right:
+
+* ALLY recommendations,
+* SEO health,
+* conversion opportunities,
+* publishing status.
+
+Top status:
+
+```text
+Website live
+All systems healthy
+Last updated by ALLY: 2 hours ago
+```
+
+Actions:
+
+* Edit with ALLY
+* Change theme
+* Add service
+* Improve page
+* Preview
+* Publish
+* Roll back
+
+The user should be able to say:
+
+> Make the homepage feel more premium and highlight Saturday appointments.
+
+Then show a side-by-side preview and explain every proposed change.
+
+---
+
+# 11. Reputation
+
+This should be called something more human, such as:
+
+## Customer Trust
+
+or
+
+## Reputation & Reviews
+
+## Overview
+
+* average rating,
+* review velocity,
+* sentiment,
+* unresolved concerns,
+* response rate,
+* competitor position.
+
+Sections:
+
+* Reviews
+* Sentiment
+* Requests
+* Recovery
+* Mentions
+* Loyalty signals
+
+ALLY highlights emerging patterns:
+
+> Positive comments about staff friendliness are increasing. Waiting-time complaints have appeared three times this month.
+
+Actions:
+
+* Respond
+* Request review
+* Investigate issue
+* Thank customer
+* Start recovery workflow
+
+Include a “Quiet Reputation Protection” feed showing issues caught early.
+
+---
+
+# 12. Analytics
+
+I would eventually rename this:
+
+## Business Intelligence
+
+or
+
+## Performance
+
+Avoid a wall of empty charts.
+
+## First screen
+
+```text
+What changed?
+Why did it change?
+What should we do next?
+```
+
+Top summary:
+
+* business health,
+* revenue movement,
+* booking movement,
+* customer growth,
+* staff capacity,
+* forecast.
+
+Then:
+
+### What improved
+
+### What weakened
+
+### What ALLY noticed
+
+### What ALLY recommends
+
+Charts should answer questions, not merely exist.
+
+Examples:
+
+* Why revenue changed
+* Which services create profit
+* Where customers leave
+* When demand peaks
+* Which staff need support
+* Which marketing creates bookings
+* What is likely next month
+
+Every chart should include a plain-language interpretation.
+
+---
+
+# 13. Knowledge
+
+This is “What ALLY knows about your business.”
+
+## Categories
+
+* Business facts
+* Services
+* Pricing
+* Staff knowledge
+* Customer policies
+* Communication rules
+* Frequently asked questions
+* Documents
+* Workflows
+* Lessons learned
+* Industry knowledge
+
+Every knowledge item shows:
+
+* source,
+* confidence,
+* owner verification,
+* sensitivity,
+* last updated,
+* expiry,
+* relationships,
+* version history.
+
+Example:
+
+```text
+Saturday closing time: 18:00
+
+Source: Owner confirmation
+Confidence: Verified
+Last reviewed: 12 July 2026
+Used by: Reception Ally, Website Ally, Voice Ally
+```
+
+Actions:
+
+* Confirm
+* Correct
+* Archive
+* Delete
+* Restrict access
+* View history
+
+A visual knowledge graph can exist, but the default view should remain understandable.
+
+---
+
+# 14. Automations
+
+This should look like a **visual operating system for workflows**.
+
+## Main sections
+
+* Active
+* Suggested
+* Drafts
+* Templates
+* History
+* Failures
+
+Automation cards:
+
+```text
+Recover cancelled bookings
+
+Trigger:
+Booking cancelled
+
+ALLY action:
+Find waitlist match
+
+Permission:
+Automatic
+
+Success rate:
+73%
+
+Recovered revenue:
+£4,820
+```
+
+Visual builder:
+
+```text
+When this happens
+        ↓
+Check these conditions
+        ↓
+Ask permission if required
+        ↓
+Perform these actions
+        ↓
+Verify outcome
+        ↓
+Learn
+```
+
+Include:
+
+* test mode,
+* approval mode,
+* rollback,
+* limits,
+* audit trail,
+* emergency stop.
+
+---
+
+# 15. Settings
+
+Settings should not become a technical dumping ground.
+
+Organise it into human categories.
+
+## Business
+
+* Profile
+* Locations
+* Opening hours
+* Services
+* Staff
+* Brand
+
+## ALLY
+
+* Personality
+* Voice
+* Communication style
+* Permissions
+* Autonomy
+* Escalation rules
+* Daily briefing
+
+## Connections
+
+* Email
+* Calendar
+* Payments
+* Website
+* Messaging
+* External integrations
+
+## Trust & Security
+
+* Team access
+* Roles
+* Audit log
+* Privacy
+* Data retention
+* Memory controls
+* API keys
+* BYO model keys
+
+## Billing
+
+* Plan
+* AI credits
+* Voice usage
+* Auto top-up
+* Invoices
+* Usage limits
+
+Every technical setting needs:
+
+* a plain-language title,
+* a one-sentence explanation,
+* an example,
+* automatic detection,
+* guided setup,
+* an Advanced section.
+
+---
+
+# Additional tabs I would add
+
+## Home
+
+Daily reassurance and priorities.
+
+## Business Twin
+
+Live model of the entire business.
+
+## Goals
+
+Persistent missions such as:
+
+* reduce no-shows,
+* grow monthly revenue,
+* improve reviews,
+* open a new branch.
+
+## Time Machine
+
+Replay historical business state and major decisions.
+
+## Personality
+
+Business voice, tone, values, and behavioural preferences.
+
+## Guardian
+
+Security, risk, continuity, provider health, and quiet protections.
+
+## Opportunities
+
+A dedicated ranked feed of business improvements.
+
+---
+
+# Important navigation improvement
+
+The current list will eventually become too long.
+
+I would group it like this:
+
+```text
+HOME
+Home
+Captain’s Log
+Goals
+
+WORK
+Conversations
+Customers
+Calendar
+Bookings
+
+BUSINESS
+Business Twin
+Services
+Staff
+Website
+Reputation
+
+MONEY
+Payments
+Invoices
+Finance
+
+INTELLIGENCE
+Analytics
+Knowledge
+Time Machine
+Opportunities
+
+ALLY
+AI Workforce
+Automations
+Personality
+Voice
+
+SYSTEM
+Trust Centre
+Settings
+Plan
+```
+
+This keeps the platform expansive without making the owner feel lost.
+
+The interface should always preserve one emotional truth:
+
+> **ALLY has already handled what it safely can, is watching what matters, and is only bringing the owner the decisions that genuinely require human judgment.**
