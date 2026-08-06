@@ -1,0 +1,34 @@
+# The legacy Pages builder stalled repeatedly on this repo (and failed
+# outright whenever .nojekyll went missing, since it then tried to run Jekyll
+# over a Vite build). This deploys the tree as a static artifact instead —
+# no Jekyll, no implicit build step, and a visible log when it goes wrong.
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+      - id: deployment
+        uses: actions/deploy-pages@v4
