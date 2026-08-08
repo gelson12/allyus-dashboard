@@ -2,7 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- viewport-fit=cover is what makes env(safe-area-inset-*) resolve to
+         anything but 0 on notched iPhones. The stylesheet already positions
+         the assistant FAB and the ceremony skip button off those insets;
+         without this they quietly sat in the home-indicator gesture strip. -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
     <meta name="theme-color" content="#0B0D10" />
     <link rel="icon" type="image/png" href="/favicon.png" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
@@ -88,8 +95,8 @@
     -->
     <!-- google-site-verification: paste the content value here once issued -->
     <!-- msvalidate.01: paste the Bing value here once issued -->
-    <script type="module" crossorigin src="/assets/index-B_TGFxXd.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-CL6seWG-.css">
+    <script type="module" crossorigin src="/assets/index-Di118U5N.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-fnj3PU2A.css">
   </head>
   <body>
     <div id="root"></div>
