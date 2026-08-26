@@ -95,8 +95,36 @@
     -->
     <!-- google-site-verification: paste the content value here once issued -->
     <!-- msvalidate.01: paste the Bing value here once issued -->
-    <script type="module" crossorigin src="/assets/index-BfuRuN6G.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-UFw5HbZp.css">
+
+    <!--
+      ANALYTICS. One line, then the funnel is measurable.
+
+      src/lib/track.ts already fires named events at every moment that
+      matters on the marketing pages - hero CTAs, whether the demo was
+      played, whether an option was actually clicked, whether the visitor
+      ever reached the price, FAQ opened, final CTA, sticky CTA. Every one
+      of them is a NO-OP until a vendor is loaded here, so nothing is being
+      recorded today and no one can yet say whether the rebuild converts
+      better than what it replaced.
+
+      Uncomment ONE of these once the account exists. Both are cookieless
+      and neither needs a consent banner, which is why they were chosen over
+      Google Analytics.
+
+      Plausible (plausible.io):
+        <script defer data-domain="a-l-l-y.com"
+                src="https://plausible.io/js/script.tagged-events.js"></script>
+
+      Umami (umami.is or self-hosted):
+        <script defer data-website-id="PASTE-ID"
+                src="https://YOUR-UMAMI-HOST/script.js"></script>
+
+      track() detects whichever is present. Nothing else needs changing.
+      NOTE: the Content-Security-Policy, if one is ever added, must allow the
+      chosen host or the script will load silently as nothing.
+    -->
+    <script type="module" crossorigin src="/assets/index-BGPe_NVI.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Bsm8AGSO.css">
   </head>
   <body>
     <div id="root"></div>
