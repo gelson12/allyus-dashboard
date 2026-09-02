@@ -1,0 +1,1 @@
+function a(t,o){return Math.floor((t+o/2)/o)}const s="20",n={GBP:"£",EUR:"€",USD:"$"};function m(t,o="GBP"){return`${n[o]??`${o} `}${(t/100).toLocaleString("en-GB",{minimumFractionDigits:2,maximumFractionDigits:2})}`}export{s as F,a as d,m as f};
