@@ -1,0 +1,1 @@
+import{an as r}from"./index-CCzOjGnn.js";const s={overview:e=>r("/branches",{query:{from:e==null?void 0:e.from,to:e==null?void 0:e.to}}),create:e=>r("/branches",{method:"POST",body:JSON.stringify(e)}),update:(e,t)=>r(`/branches/${e}`,{method:"PATCH",body:JSON.stringify(t)}),place:e=>r("/branches/place",{method:"PATCH",body:JSON.stringify(e)})};export{s as b};
