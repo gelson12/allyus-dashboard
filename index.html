@@ -26,7 +26,7 @@
     <title>ALLYUS — intelligence that grows with you</title>
     <meta
       name="description"
-      content="Intelligence that grows with you. ALLYUS is the all-in-one platform for local businesses: an AI that answers customers, books real appointments, keeps your records, invoices and stock in one place, and never sends anything without your approval. 14-day free trial, no card required."
+      content="Ally answers customers and books appointments 24/7; invoices and emails wait for your approval. The platform for local businesses. 14-day free trial, no card."
     />
     <link rel="canonical" href="https://a-l-l-y.com/" />
     <meta name="robots" content="index, follow, max-image-preview:large" />
@@ -38,17 +38,25 @@
     <meta property="og:title" content="ALLYUS — intelligence that grows with you" />
     <meta
       property="og:description"
-      content="The all-in-one platform for local businesses. Ally answers your customers and books real appointments 24/7; invoices, stock and records in one place. 14-day free trial, no card required."
+      content="Ally answers customers and books appointments 24/7; invoices and emails wait for your approval. The platform for local businesses. 14-day free trial, no card."
     />
-    <meta property="og:image" content="https://a-l-l-y.com/allyus-logo.png" />
+    <!-- A card with the name and the line on it, not the bare mark: a
+         transparent 845x346 logo composited on white by Facebook and on
+         black by X is a squiggle with no product name. Dimensions are
+         declared so the first share of any URL is not rendered without
+         an image while the scraper fetches it asynchronously. -->
+    <meta property="og:image" content="https://a-l-l-y.com/og-card.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="ALLYUS — intelligence that grows with you" />
     <meta property="og:locale" content="en_GB" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="ALLYUS — intelligence that grows with you" />
     <meta
       name="twitter:description"
-      content="The all-in-one platform for local businesses. Ally answers your customers and books real appointments 24/7; invoices, stock and records in one place. 14-day free trial, no card required."
+      content="Ally answers customers and books appointments 24/7; invoices and emails wait for your approval. The platform for local businesses. 14-day free trial, no card."
     />
-    <meta name="twitter:image" content="https://a-l-l-y.com/allyus-logo.png" />
+    <meta name="twitter:image" content="https://a-l-l-y.com/og-card.png" />
 
     <!--
       Structured data. Organization gives search engines a stable identity to
@@ -66,7 +74,7 @@
             "name": "ALLYUS",
             "url": "https://a-l-l-y.com/",
             "logo": "https://a-l-l-y.com/allyus-logo.png",
-            "description": "An AI employee for local service businesses — website, bookings, customer records and a 24/7 AI receptionist."
+            "description": "The all-in-one platform for local businesses: an AI that answers customers and books appointments 24/7, with bookings, invoices, stock and records in one place."
           },
           {
             "@type": "SoftwareApplication",
@@ -77,10 +85,22 @@
             "url": "https://a-l-l-y.com/",
             "publisher": { "@id": "https://a-l-l-y.com/#organization" },
             "offers": [
-              { "@type": "Offer", "name": "Free", "price": "0", "priceCurrency": "GBP" },
-              { "@type": "Offer", "name": "Essentials", "price": "49", "priceCurrency": "GBP" },
-              { "@type": "Offer", "name": "Professional", "price": "99", "priceCurrency": "GBP" },
-              { "@type": "Offer", "name": "Autopilot", "price": "199", "priceCurrency": "GBP" }
+              { "@type": "Offer", "name": "Free", "price": "0", "priceCurrency": "GBP", "priceSpecification": { "@type": "UnitPriceSpecification", "price": "0", "priceCurrency": "GBP", "billingIncrement": 1, "unitCode": "MON" } },
+              { "@type": "Offer", "name": "Essentials", "price": "49", "priceCurrency": "GBP", "priceSpecification": { "@type": "UnitPriceSpecification", "price": "49", "priceCurrency": "GBP", "billingIncrement": 1, "unitCode": "MON" } },
+              { "@type": "Offer", "name": "Professional", "price": "99", "priceCurrency": "GBP", "priceSpecification": { "@type": "UnitPriceSpecification", "price": "99", "priceCurrency": "GBP", "billingIncrement": 1, "unitCode": "MON" } },
+              { "@type": "Offer", "name": "Autopilot", "price": "199", "priceCurrency": "GBP", "priceSpecification": { "@type": "UnitPriceSpecification", "price": "199", "priceCurrency": "GBP", "billingIncrement": 1, "unitCode": "MON" } }
+            ]
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://a-l-l-y.com/#faq",
+            "mainEntity": [
+              { "@type": "Question", "name": "Will it sound like a robot to my customers?", "acceptedAnswer": { "@type": "Answer", "text": "It answers in your language, from your own prices and policies, and hands over to you the moment something needs a human. You set the tone, and you can read every conversation it has had." } },
+              { "@type": "Question", "name": "What if it gets something wrong?", "acceptedAnswer": { "@type": "Answer", "text": "The things that would hurt to get wrong — money, cancellations, anything leaving your business — are drafted for you and wait for your approval. Bookings it makes are real, and you can move or cancel any of them." } },
+              { "@type": "Question", "name": "Do I need a website already?", "acceptedAnswer": { "@type": "Answer", "text": "No. ALLYUS builds you one, shaped around your trade, and Ally lives on it. If you already have a site, it can read yours and fill the new one in from it." } },
+              { "@type": "Question", "name": "What happens when I'm on holiday?", "acceptedAnswer": { "@type": "Answer", "text": "Ally keeps answering and keeps taking bookings against the hours you set. Anything waiting for your approval is still waiting when you get back, and nothing went out without you." } },
+              { "@type": "Question", "name": "Can I take over a conversation myself?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, at any point. Every conversation is in your dashboard as it happens, and you can step in and type. Ally steps back when you do." } },
+              { "@type": "Question", "name": "What does it cost me to try?", "acceptedAnswer": { "@type": "Answer", "text": "Nothing. Every account opens on fourteen days of Professional with no card. When that ends you drop to the Free plan and carry on — you are not locked out of your own site or your own bookings." } }
             ]
           }
         ]
@@ -123,7 +143,7 @@
       NOTE: the Content-Security-Policy, if one is ever added, must allow the
       chosen host or the script will load silently as nothing.
     -->
-    <script type="module" crossorigin src="/assets/index-14wW-KzS.js"></script>
+    <script type="module" crossorigin src="/assets/index-DL8t3aqA.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-BCrNQt9r.css">
   </head>
   <body>
