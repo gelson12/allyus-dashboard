@@ -1,0 +1,1 @@
+import{r as i,a1 as r}from"./index-HAgX_U-x.js";const o=300*1e3;function c(t=!0){i.useEffect(()=>{if(!t)return;const e=()=>{document.hidden||r.wakeEngine().catch(()=>{})};e();const n=window.setInterval(e,o);return document.addEventListener("visibilitychange",e),()=>{window.clearInterval(n),document.removeEventListener("visibilitychange",e)}},[t])}export{c as u};
