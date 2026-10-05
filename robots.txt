@@ -9,6 +9,8 @@ Allow: /pricing
 Allow: /register
 Allow: /login
 Allow: /demo
+# Partner front doors — the URL on a partner's QR code.
+Allow: /bellision
 Allow: /privacy
 Allow: /terms
 Allow: /dpa
