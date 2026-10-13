@@ -110,11 +110,34 @@
     <!--
       Verification slots, deliberately EMPTY.
       These need accounts only the owner can create, and inventing an ID would
-      have the page claim a property we do not own. docs/SEO_SETUP.md has the
-      exact steps; paste the tokens here and rebuild.
+      have the page claim a property we do not own. docs/SEO_OWNER_SETUP.md has
+      the exact steps; paste the tokens here and rebuild.
+
+      THE GOOGLE ONE IS STILL THE WHOLE GAME. Measured 2026-10-12: a `site:`
+      search for this domain returned NOTHING. Nothing blocks indexing - robots,
+      sitemap, canonical, meta robots, the www 301 and the per-page <noscript>
+      bodies are all correct and were checked against the live site. The domain
+      had simply never been DISCOVERED, and Search Console is the only way to
+      tell Google so, because it needs the owner's own account.
+
+      THE BING ONE IS NOW OPTIONAL. Since #398 the deploy submits every sitemap
+      URL to IndexNow (proven: `indexnow: submitting 9 URLs` / `HTTP 202`, with
+      the ownership key file answering 200 at its own name), which is what gets
+      pages INTO Bing - and therefore into DuckDuckGo and ChatGPT search. A Bing
+      Webmaster account would add a dashboard, not a submission. Left here for
+      whoever wants the dashboard; nothing is waiting on it.
     -->
-    <!-- google-site-verification: paste the content value here once issued -->
-    <!-- msvalidate.01: paste the Bing value here once issued -->
+    <!--
+      GOOGLE IS VERIFIED BY FILE, NOT BY THIS TAG. The owner chose the
+      "HTML file" method on 2026-10-13, so the proof is
+      apps/web/public/googlef00cab4581a72d1f.html - which must NEVER be
+      deleted, per Google's own warning, and is pinned by
+      apps/api/src/website/indexnow-site-key.spec.ts. This slot stays empty
+      and stays here: a second property, or a re-verification offered only as
+      a meta tag, would land in it.
+    -->
+    <!-- google-site-verification: verified by file; see the note above -->
+    <!-- msvalidate.01: optional, see above - Bing submission is automatic -->
 
     <!--
       ANALYTICS: NOT HERE, ON PURPOSE.
