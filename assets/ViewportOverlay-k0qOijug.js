@@ -1,0 +1,1 @@
+import{F as e,j as t}from"./index-D2jnBHgl.js";import{r as s}from"./index-JJ5ybZuq.js";function i({children:o}){const r=e();return r===null?null:s.createPortal(t.jsx(t.Fragment,{children:o}),r)}export{i as V};
