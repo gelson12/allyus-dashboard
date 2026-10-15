@@ -1,0 +1,454 @@
+<!doctype html>
+<!--
+  UNLISTED PAGE for the ALLYUS partners: the steps to take kwanza payments in
+  Angola, and the message for ProxyPay. Reachable only by its link — it is
+  marked noindex, it is in neither sitemap.xml nor robots.txt (both are
+  hand-maintained, and IndexNow submits only the sitemap's URLs), and nothing
+  on the site links to it. Anyone given the link can read it: it holds no
+  credentials and must never be given any.
+-->
+<html lang="pt-AO">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="referrer" content="no-referrer">
+<title>ALLYUS em Angola</title>
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  /* Layout: one phone-first column — a numbered sequence of real steps, each
+     owned by a person, then the two messages to copy. */
+  :root {
+    --bg: #f3f5f2;
+    --surface: #ffffff;
+    --ink: #17201b;
+    --muted: #56635c;
+    --line: #d9e0db;
+    --accent: #0d6b4e;
+    --accent-ink: #ffffff;
+    --accent-soft: #e2f1ea;
+    --tu: #8a4b08;
+    --tu-bg: #fbecd9;
+    --eu: #1f4f8a;
+    --eu-bg: #e1ebf8;
+    --dois: #0d6b4e;
+    --dois-bg: #e2f1ea;
+    --done: #8a978f;
+    --display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+    --body: "IBM Plex Sans", "Segoe UI", Roboto, Arial, sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0e1311;
+      --surface: #151c19;
+      --ink: #e6ece8;
+      --muted: #9aa8a0;
+      --line: #27312c;
+      --accent: #46c495;
+      --accent-ink: #08130e;
+      --accent-soft: #163327;
+      --tu: #f0b36a;
+      --tu-bg: #3a2810;
+      --eu: #8fb8f0;
+      --eu-bg: #172840;
+      --dois: #6fd6ad;
+      --dois-bg: #13302a;
+      --done: #66746c;
+      color-scheme: dark;
+    }
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 400 1rem/1.55 var(--body);
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  img { max-width: 100%; }
+  a { color: var(--accent); }
+  .page {
+    max-width: 42rem;
+    margin: 0 auto;
+    padding-inline: 1rem;
+    padding-block: 1.5rem 3rem;
+    display: grid;
+    gap: 2rem;
+  }
+  .brand { display: inline-flex; align-items: center; }
+  .brand img { height: 2rem; width: auto; display: block; }
+  header { display: grid; gap: 0.6rem; }
+  .eyebrow {
+    font: 600 0.75rem/1 var(--body);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+  h1 {
+    font: 700 clamp(1.9rem, 6vw, 2.6rem)/1.05 var(--display);
+    margin: 0;
+    text-wrap: balance;
+  }
+  h2 {
+    font: 700 1.3rem/1.2 var(--display);
+    margin: 0;
+    text-wrap: balance;
+  }
+  .lead { margin: 0; color: var(--muted); max-width: 60ch; }
+  .legend { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; color: var(--muted); font-size: 0.875rem; }
+  .progress {
+    display: flex; align-items: center; gap: 0.75rem;
+    font: 500 0.9rem/1 var(--body); color: var(--muted);
+  }
+  .bar { flex: 1; height: 0.45rem; background: var(--line); border-radius: 999px; overflow: hidden; }
+  .bar > span { display: block; height: 100%; width: 0; background: var(--accent); transition: width 0.25s ease; }
+
+  .chip {
+    display: inline-block;
+    font: 600 0.72rem/1 var(--body);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 0.32rem 0.55rem;
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+  .chip.tu { color: var(--tu); background: var(--tu-bg); }
+  .chip.eu { color: var(--eu); background: var(--eu-bg); }
+  .chip.dois { color: var(--dois); background: var(--dois-bg); }
+
+  ol.steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.75rem; }
+  .step {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 0.75rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.25rem 0.85rem;
+    min-width: 0;
+  }
+  .step input[type="checkbox"] {
+    width: 1.35rem; height: 1.35rem; margin: 0.15rem 0 0;
+    accent-color: var(--accent);
+  }
+  .step-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.4rem 0.6rem; min-width: 0; }
+  .step-head label { font: 700 1.05rem/1.3 var(--display); cursor: pointer; }
+  .num { font: 500 0.85rem/1 var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+  .step ul { grid-column: 2; margin: 0.35rem 0 0; padding-left: 1.1rem; display: grid; gap: 0.35rem; }
+  .step li { min-width: 0; }
+  .step.done label, .step.done li { color: var(--done); }
+  .step.done label { text-decoration: line-through; }
+  .note { color: var(--muted); font-size: 0.9rem; }
+  .price { font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+  section.copy { display: grid; gap: 0.75rem; }
+  .contacts { display: grid; gap: 0.5rem; }
+  .contact {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 0.75rem;
+    background: var(--surface); border: 1px solid var(--line); border-radius: 0.6rem;
+    padding: 0.6rem 0.75rem;
+  }
+  .contact .what { color: var(--muted); font-size: 0.85rem; flex-basis: 100%; }
+  .contact .val { font: 500 0.95rem/1.3 var(--mono); user-select: all; overflow-wrap: anywhere; flex: 1; min-width: 0; }
+  .contact .actions { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+  pre.msg {
+    margin: 0;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 0.6rem;
+    padding: 1rem;
+    font: 400 0.86rem/1.55 var(--mono);
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    max-height: 26rem;
+    overflow: auto;
+  }
+  .row { display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: center; }
+  button, .btn {
+    font: 600 0.9rem/1 var(--body);
+    color: var(--accent-ink);
+    background: var(--accent);
+    border: 0;
+    border-radius: 0.5rem;
+    padding: 0.7rem 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .small { padding: 0.45rem 0.7rem; font-size: 0.8rem; }
+  .ghost { background: transparent; color: var(--accent); border: 1px solid var(--accent); }
+  button:focus-visible, .btn:focus-visible, input:focus-visible, summary:focus-visible, a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+  .status { font-size: 0.85rem; color: var(--accent); min-height: 1.2em; }
+  details { background: var(--accent-soft); border-radius: 0.6rem; padding: 0.75rem 1rem; }
+  summary { cursor: pointer; font-weight: 600; }
+  details[open] summary { margin-bottom: 0.75rem; }
+  footer { color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--line); padding-top: 1rem; display: grid; gap: 0.4rem; }
+  @media (prefers-reduced-motion: reduce) { .bar > span { transition: none; } }
+</style>
+</head>
+<body>
+<main class="page">
+  <a class="brand" href="https://a-l-l-y.com/" aria-label="ALLYUS"><img src="/allyus-logo.png" alt="ALLYUS"></a>
+
+  <header>
+    <span class="eyebrow">Pagamentos em kwanzas · parceria 50/50</span>
+    <h1>ALLYUS em Angola</h1>
+    <p class="lead">A parte técnica está pronta: as empresas angolanas vão poder pagar o plano da ALLYUS em kwanzas, por referência Multicaixa, logo que houver contrato com o ProxyPay. Faltam a empresa, a conta bancária e o contrato. Marca cada passo quando estiver feito.</p>
+    <div class="legend">
+      <span class="chip tu">Tu</span> o sócio em Angola
+      <span class="chip eu">Eu</span> o sócio no Reino Unido
+      <span class="chip dois">Os dois</span>
+    </div>
+    <div class="progress" aria-live="polite">
+      <div class="bar" aria-hidden="true"><span id="bar"></span></div>
+      <span id="count">0 de 8 passos feitos</span>
+    </div>
+  </header>
+
+  <ol class="steps" id="steps">
+    <li class="step">
+      <input type="checkbox" id="p1">
+      <div class="step-head"><span class="num">01</span><label for="p1">Perguntar primeiro ao ProxyPay</label><span class="chip tu">Tu</span></div>
+      <ul>
+        <li>Enviar a mensagem desta página por email ou por WhatsApp (contactos mais abaixo).</li>
+        <li>Pedir as respostas por escrito. Dizem-nos de que tipo de empresa e de conta precisamos, com que bancos trabalham e quanto cobram.</li>
+      </ul>
+    </li>
+    <li class="step">
+      <input type="checkbox" id="p2">
+      <div class="step-head"><span class="num">02</span><label for="p2">Empresa angolana 50/50</label><span class="chip tu">Tu</span><span class="note">com advogado ou contabilista</span></div>
+      <ul>
+        <li>Segundo empresas que já integraram o ProxyPay, só aceitam empresas angolanas com conta empresarial em kwanzas. Uma conta conjunta em nome de duas pessoas não deve servir.</li>
+        <li>Constituir uma sociedade por quotas (Lda) com duas quotas de 50%: uma minha e uma tua. Assim a divisão 50/50 fica escrita na própria empresa.</li>
+        <li>Saber o que eu tenho de enviar do Reino Unido como sócio não residente: passaporte, comprovativo de morada, procuração, NIF angolano e a legalização dos documentos.</li>
+        <li>Definir o gerente, quem assina, o objecto social (serviços de software e subscrições) e o capital social.</li>
+        <li>Registo no Guiché Único da Empresa: certidão comercial, NIF da empresa e inscrição na AGT, com o regime de IVA adequado.</li>
+      </ul>
+    </li>
+    <li class="step">
+      <input type="checkbox" id="p3">
+      <div class="step-head"><span class="num">03</span><label for="p3">Conta bancária da empresa</label><span class="chip tu">Tu</span></div>
+      <ul>
+        <li>Conta empresarial em kwanzas em nome da empresa, num banco que trabalhe com o ProxyPay (a resposta deles diz quais).</li>
+        <li>A conta só se movimenta com a assinatura dos dois sócios.</li>
+      </ul>
+    </li>
+    <li class="step">
+      <input type="checkbox" id="p4">
+      <div class="step-head"><span class="num">04</span><label for="p4">Contrato com o ProxyPay e com o banco</label><span class="chip tu">Tu</span><span class="note">em nome da empresa</span></div>
+      <ul>
+        <li>Entregar os documentos que pedirem e assinar os dois contratos.</li>
+        <li>Pedir acesso ao portal ProxyPay para os dois sócios.</li>
+      </ul>
+    </li>
+    <li class="step">
+      <input type="checkbox" id="p5">
+      <div class="step-head"><span class="num">05</span><label for="p5">Chaves e testes</label><span class="chip eu">Eu</span></div>
+      <ul>
+        <li>A chave API e o número de entidade não se mandam por mensagem: eu copio-os directamente do portal ProxyPay.</li>
+        <li>Ligo-os à ALLYUS e faço o teste completo: uma empresa de teste paga um plano com um pagamento simulado e o plano fica activo.</li>
+        <li>Depois do teste, passamos para a chave e a entidade de produção.</li>
+      </ul>
+    </li>
+    <li class="step">
+      <input type="checkbox" id="p6">
+      <div class="step-head"><span class="num">06</span><label for="p6">Preços em kwanzas</label><span class="chip dois">Os dois</span></div>
+      <ul>
+        <li>Proposta por mês: Essentials <span class="price">19 900 Kz</span>, Professional <span class="price">39 900 Kz</span>, Autopilot <span class="price">79 900 Kz</span>.</li>
+        <li>Confirmamos juntos antes de abrir aos clientes.</li>
+      </ul>
+    </li>
+    <li class="step">
+      <input type="checkbox" id="p7">
+      <div class="step-head"><span class="num">07</span><label for="p7">As nossas contas 50/50</label><span class="chip dois">Os dois</span></div>
+      <ul>
+        <li>Cada um cria um login na ALLYUS com o seu email, e eu dou-nos acesso à página da parceria: a-l-l-y.com/partnership</li>
+        <li>Aprovamos juntos as regras: lucro = receita menos taxas do ProxyPay, reembolsos, comissões de parceiros e despesas aprovadas; dividimos 50/50.</li>
+        <li>Os custos de IA e de servidores que eu pago no Reino Unido entram como despesa mensal.</li>
+        <li>Cada transferência para um de nós fica registada com a referência do banco e é aprovada pelo outro.</li>
+      </ul>
+    </li>
+    <li class="step">
+      <input type="checkbox" id="p8">
+      <div class="step-head"><span class="num">08</span><label for="p8">Contabilidade e acordo escrito</label><span class="chip tu">Tu</span><span class="note">com o contabilista</span></div>
+      <ul>
+        <li>Contabilista para a empresa: IVA, imposto industrial, facturação electrónica da AGT e distribuição de lucros.</li>
+        <li>Pôr o nosso acordo por escrito: pacto social e, se for preciso, acordo parassocial.</li>
+        <li>Transferir kwanzas para fora de Angola segue as regras do BNA. Tratamos disso com o banco quando for preciso.</li>
+      </ul>
+    </li>
+  </ol>
+
+  <section class="copy" aria-labelledby="proxypay-title">
+    <h2 id="proxypay-title">Mensagem para o ProxyPay</h2>
+    <p class="note">Contactos encontrados na internet: o email aparece como o oficial do ProxyPay; o telefone vem de um directório de empresas. Confirmar ambos.</p>
+    <div class="contacts">
+      <div class="contact">
+        <span class="what">Email</span>
+        <span class="val" id="c-email">info@proxypay.co.ao</span>
+        <span class="actions">
+          <a class="btn small ghost" href="mailto:info@proxypay.co.ao?subject=Ades%C3%A3o%20ao%20ProxyPay%20%E2%80%94%20ALLYUS">Abrir email</a>
+          <button class="small" type="button" data-copy="c-email">Copiar</button>
+        </span>
+      </div>
+      <div class="contact">
+        <span class="what">WhatsApp / telefone (TimeBoxed, empresa do ProxyPay)</span>
+        <span class="val" id="c-phone">+244 925 721 924</span>
+        <span class="actions">
+          <a class="btn small ghost" href="https://wa.me/244925721924" target="_blank" rel="noopener noreferrer">Abrir WhatsApp</a>
+          <a class="btn small ghost" href="tel:+244925721924">Ligar</a>
+          <button class="small" type="button" data-copy="c-phone">Copiar</button>
+        </span>
+      </div>
+    </div>
+<pre class="msg" id="msg-proxypay">Bom dia. O meu nome é [nome] e sou sócio da ALLYUS (a-l-l-y.com), uma plataforma de gestão com assistente de IA para pequenas empresas.
+
+Queremos que as empresas angolanas paguem a subscrição mensal da ALLYUS em kwanzas, por *Pagamento por Referência Multicaixa* através do ProxyPay. A integração com a vossa API v2 (referências, fila de pagamentos e webhook assinado) já está pronta do nosso lado.
+
+Antes do contrato, agradecia uma resposta por escrito a estas questões:
+
+1. A conta de comerciante pode ser aberta por uma pessoa singular com conta bancária angolana, ou tem de ser uma empresa angolana com conta empresarial em kwanzas? Que documentos são necessários?
+2. Em que conta são creditados os pagamentos, com que periodicidade, e com que bancos trabalham? Existe um relatório de liquidação para reconciliar pagamento a pagamento?
+3. Que comissões cobram (adesão, mensalidade, por pagamento)? A comissão é descontada do valor creditado ou facturada à parte? O campo "fee" de cada pagamento corresponde a essa comissão?
+4. É possível liquidar uma entidade para duas contas bancárias, ou dividir automaticamente cada pagamento entre dois beneficiários?
+5. Uma referência pode ser paga mais do que uma vez, ou com um valor diferente? Um pagamento já comunicado pode ser revertido?
+6. O que acontece a um pagamento feito depois do fim da validade da referência (end_datetime)?
+
+Pedimos também acesso ao ambiente de testes (sandbox), com uma chave API e uma entidade de teste. O nosso webhook é:
+https://api.a-l-l-y.com/webhooks/multicaixa-platform
+
+Obrigado.
+[nome] · [telefone]
+ALLYUS · a-l-l-y.com</pre>
+    <div class="row">
+      <button type="button" data-copy="msg-proxypay">Copiar mensagem</button>
+      <span class="status" id="status-proxypay" role="status"></span>
+    </div>
+  </section>
+
+  <details>
+    <summary>Este plano em texto, para WhatsApp</summary>
+<pre class="msg" id="msg-plano">*ALLYUS em Angola: o que falta fazer*
+
+A parte técnica da ALLYUS está pronta: as empresas angolanas vão poder pagar o plano em kwanzas por referência Multicaixa logo que tivermos contrato com o ProxyPay. Falta a parte legal, a conta bancária e o contrato. Por ordem:
+
+*1. Perguntar primeiro ao ProxyPay* (tu)
+- Enviar a mensagem para o ProxyPay por email (info@proxypay.co.ao) ou por WhatsApp para a TimeBoxed, a empresa do ProxyPay (+244 925 721 924). Contactos tirados da internet: confirmar.
+- Pedir as respostas por escrito. Dizem-nos de que tipo de empresa e de conta precisamos, com que bancos trabalham e quanto cobram.
+
+*2. Empresa angolana 50/50* (tu, com advogado ou contabilista)
+- Segundo empresas que já integraram o ProxyPay, só aceitam empresas angolanas com conta empresarial em kwanzas. Uma conta conjunta em nome de duas pessoas não deve servir.
+- Constituir uma sociedade por quotas (Lda) com duas quotas de 50%: uma minha e uma tua. Assim a divisão 50/50 fica escrita na própria empresa.
+- Saber o que eu tenho de enviar do Reino Unido como sócio não residente: passaporte, comprovativo de morada, procuração, NIF angolano e a legalização dos documentos.
+- Definir o gerente, quem assina, o objecto social (serviços de software e subscrições) e o capital social.
+- Registo no Guiché Único da Empresa: certidão comercial, NIF da empresa e inscrição na AGT, com o regime de IVA adequado.
+
+*3. Conta bancária da empresa* (tu)
+- Conta empresarial em kwanzas em nome da empresa, num banco que trabalhe com o ProxyPay (a resposta deles diz quais).
+- A conta só se movimenta com a assinatura dos dois sócios.
+
+*4. Contrato com o ProxyPay e com o banco* (tu, em nome da empresa)
+- Entregar os documentos que pedirem e assinar os dois contratos.
+- Pedir acesso ao portal ProxyPay para os dois sócios.
+
+*5. Chaves e testes* (eu)
+- A chave API e o número de entidade *não se mandam por mensagem*: eu copio-os directamente do portal ProxyPay.
+- Ligo-os à ALLYUS e faço o teste completo: uma empresa de teste paga um plano com um pagamento simulado e o plano fica activo.
+- Depois do teste, passamos para a chave e a entidade de produção.
+
+*6. Preços em kwanzas* (os dois)
+- Proposta por mês: Essentials 19 900 Kz, Professional 39 900 Kz, Autopilot 79 900 Kz. Confirmamos juntos antes de abrir aos clientes.
+
+*7. As nossas contas 50/50* (os dois)
+- Cada um cria um login na ALLYUS com o seu email, e eu dou-nos acesso à página da parceria: a-l-l-y.com/partnership
+- Aprovamos juntos as regras: lucro = receita menos taxas do ProxyPay, reembolsos, comissões de parceiros e despesas aprovadas; dividimos 50/50.
+- Os custos de IA e de servidores que eu pago no Reino Unido entram como despesa mensal.
+- Cada transferência para um de nós fica registada com a referência do banco e é aprovada pelo outro.
+
+*8. Contabilidade e acordo escrito* (tu, com o contabilista)
+- Contabilista para a empresa: IVA, imposto industrial, facturação electrónica da AGT e distribuição de lucros.
+- Pôr o nosso acordo por escrito: pacto social e, se for preciso, acordo parassocial.
+- Transferir kwanzas para fora de Angola segue as regras do BNA. Tratamos disso com o banco quando for preciso.
+
+Qualquer dúvida, liga-me. Abraço.</pre>
+    <div class="row" style="margin-top: 0.75rem;">
+      <button type="button" data-copy="msg-plano">Copiar plano</button>
+      <span class="status" id="status-plano" role="status"></span>
+    </div>
+  </details>
+
+  <footer>
+    <span>Os preços são uma proposta. Tudo o que diz respeito ao ProxyPay (quem pode aderir, bancos, comissões) vem de empresas que já o integraram e só fica confirmado com a resposta escrita deles.</span>
+    <span>ALLYUS · <a href="https://a-l-l-y.com/">a-l-l-y.com</a></span>
+  </footer>
+</main>
+
+<script>
+  (function () {
+    var KEY = 'allyus-angola-passos';
+    var boxes = Array.prototype.slice.call(document.querySelectorAll('#steps input[type="checkbox"]'));
+    var saved = {};
+    try { saved = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { saved = {}; }
+
+    function render() {
+      var done = 0;
+      boxes.forEach(function (b) {
+        b.closest('.step').classList.toggle('done', b.checked);
+        if (b.checked) done += 1;
+      });
+      document.getElementById('count').textContent =
+        done + ' de ' + boxes.length + ' passos feitos';
+      document.getElementById('bar').style.width = (100 * done / boxes.length) + '%';
+    }
+
+    boxes.forEach(function (b) {
+      b.checked = Boolean(saved[b.id]);
+      b.addEventListener('change', function () {
+        saved[b.id] = b.checked;
+        try { localStorage.setItem(KEY, JSON.stringify(saved)); } catch (e) { /* this browser keeps nothing; the page still works */ }
+        render();
+      });
+    });
+    render();
+
+    function select(el) {
+      var range = document.createRange();
+      range.selectNodeContents(el);
+      var sel = window.getSelection();
+      sel.removeAllRanges();
+      sel.addRange(range);
+    }
+
+    document.querySelectorAll('[data-copy]').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var source = document.getElementById(btn.getAttribute('data-copy'));
+        var statusEl = source.id === 'msg-proxypay' ? document.getElementById('status-proxypay')
+          : source.id === 'msg-plano' ? document.getElementById('status-plano') : null;
+        var text = source.textContent;
+        var say = function (msg) {
+          if (statusEl) statusEl.textContent = msg;
+          else { var old = btn.textContent; btn.textContent = msg; setTimeout(function () { btn.textContent = old; }, 1600); }
+        };
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(text).then(
+            function () { say('Copiado'); },
+            function () { select(source); say('Texto seleccionado: copia-o com Copiar'); }
+          );
+        } else {
+          select(source);
+          say('Texto seleccionado: copia-o com Copiar');
+        }
+      });
+    });
+  })();
+</script>
+</body>
+</html>
